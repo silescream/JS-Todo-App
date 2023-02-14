@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Grocery Bud</title>
+</head>
+<body>
+    <div class="container">
+        <form class="grocery-form">
+            <h1 class ="grocery-form__title">Grocery Bud</h1>
+            <div class="grocery-form__input-form">
+                <input class="grocery-form__input" type="text" placeholder="e.g. eggs">
+                <button class = "grocery-form__input-button" type="submit">Add</button>
+            </div> 
+            <span class="grocery-form__error"> Please enter something</span>
+        </form>
+        <div class="grocery-content">
+            <ul class="grocery-content__list">
+            </ul>
+            <button type="button" class="grocery-content__clear">Clear Items</button>
+        </div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
